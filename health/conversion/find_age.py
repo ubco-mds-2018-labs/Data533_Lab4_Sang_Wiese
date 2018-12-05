@@ -11,5 +11,4 @@ def year_to_age(name,bdate): #enter a string in form yyyy-mm-dd
     except: 
         print("Invaild DOB format!")
 
-a1 = Swimmer('Kim','1987-04',76,178,75,68)
-year_to_age(a1.name,a1.DOB)
+
