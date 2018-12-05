@@ -16,6 +16,4 @@ def bmi(name, height, weight):
 
         except:
             print("Error, Missing value in height or weight")
-      
-a1 = Swimmer('Kim','1987-04-01',0,178,75,68)
-bmi(a1.name,a1.height,a1.weight)
+
