@@ -12,7 +12,7 @@ class TestFindAge(unittest.TestCase):
               
     def setUp(self): # Setting up for the test
         self.p1 = athlete.Powerlifter('Egor', '1989-06-09',69,167,68,64)
-        self.p2 = athlete.Swimmer('kim','1987-04-01',76,178,75,68)
+        self.p2 = athlete.Swimmer('kim','1987-12-29',76,178,75,68)
               
     def tearDown(self):
         print('Tear Down')
