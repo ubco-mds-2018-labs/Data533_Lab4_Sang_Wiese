@@ -11,10 +11,6 @@ class swimmer(athlete): # Swimmer subclass, represents a swimmer
         self.weight = int(weight)
         print('(Initialized Swimmer: {})'.format(self.name))
 
-    def display(self):
-        athlete.display(self)
-        print('Height: "{:d}"'.format(self.height))
-        print('Weight: "{:d}"'.format(self.weight))
 
 class powerlifter(athlete):
     def __init__(self, name, DOB, height, weight, fatherheight, motherheight):
@@ -22,7 +18,4 @@ class powerlifter(athlete):
         self.height = height
         self.weight = weight
         print('(Initialized powerlifter: {})'.format(self.name))
-    def display(self):
-        athlete.display(self)
-        print('Height: "{:d}"'.format(self.height))
-        print('Weight: "{:d}"'.format(self.weight))
+
