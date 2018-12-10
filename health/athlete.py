@@ -4,7 +4,7 @@ class athlete():
         self.DOB = DOB
         print('(Initialized Member: {})'.format(self.name))
 
-class swimmer(athlete): # Swimmer subclass, represents a swimmer
+class Swimmer(athlete): # Swimmer subclass, represents a swimmer
     def __init__(self, name, DOB, height, weight, fatherheight, motherheight):
         athlete.__init__(self, name, DOB)
         self.height = int(height)
@@ -12,7 +12,7 @@ class swimmer(athlete): # Swimmer subclass, represents a swimmer
         print('(Initialized Swimmer: {})'.format(self.name))
 
 
-class powerlifter(athlete):
+class Powerlifter(athlete):
     def __init__(self, name, DOB, height, weight, fatherheight, motherheight):
         athlete.__init__(self, name, DOB)
         self.height = height
