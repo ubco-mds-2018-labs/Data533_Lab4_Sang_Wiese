@@ -14,6 +14,6 @@ def bmi(name, height, weight):
                 print (name,"is a bit obese. Please work out more and eat more healthy!!!")
             return BMI
 
-        except:
-            print("Error, Missing value in height or weight")
+        except ZeroDivisionError:
+            print("Error, can't divide by 0")
 
