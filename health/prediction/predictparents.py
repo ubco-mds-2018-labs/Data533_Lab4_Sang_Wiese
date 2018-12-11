@@ -4,5 +4,5 @@ def Predicted_height(name, fatherheight, motherheight):
             PredictedHeight = (fatherheight+motherheight)/2
         #print("%s 's predicted height: %s" % (name,PredictedHeight))
         return PredictedHeight
-    except ZeroDivisionError:
-        print("Error, parents'height can't be 0!")
+    except ValueError:
+        print("Error, please enter a valid height that is greater than 0")
