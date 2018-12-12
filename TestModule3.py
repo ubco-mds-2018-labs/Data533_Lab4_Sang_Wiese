@@ -23,7 +23,7 @@ class TestFindAge(unittest.TestCase):
         
 
         self.assertEqual(E_age, 29)
-        self.assertEqual(K_age, 31)
+        self.assertEqual(K_age, 30)
         self.assertNotEqual(E_age, K_age)
         self.assertIsNotNone(E_age)
         self.assertIsNotNone(K_age)
